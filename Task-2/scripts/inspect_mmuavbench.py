@@ -33,7 +33,7 @@ def main():
       for r in recs: f.write(json.dumps(r,ensure_ascii=False)+'\n')
   with (REPORTS/'mmuav_task_inventory.json').open('w') as f: json.dump(inventory,f,ensure_ascii=False,indent=2)
   cols=list(inventory[0]);
-  with (REPORTS/'mmuav_task_inventory.csv').open('w',newline='') as f: w=csv.DictWriter(f,fieldnames=cols);w.writeheader();w.writerows(inventory)
+  with (REPORTS/'mmuav_task_inventory.csv').open('w',newline='') as f: w=csv.DictWriter(f,fieldnames=cols,lineterminator='\n');w.writeheader();w.writerows(inventory)
   total=sum(x['record_count'] for x in inventory); four=sum(x['four_coordinate_boxes'] for x in inventory)
   md=['# MM-UAVBench official task inventory','',f'Official source: `{BASE[:-6]}`. Inspected {len(inventory)} task JSON files / **{total}** records; no image or video media was downloaded.','',f'The records are benchmark MCQs. They contain **{four}** four-coordinate entity boxes, but the source does not provide an explicit referring-expression → target-bbox supervision field. Therefore VERIFIED count is **0**.','', '| Task | Records | 4-coordinate boxes | Points | Regions | Review required |','|---|---:|---:|---:|---:|---:|']
   md += [f"| {x['task_name']} | {x['record_count']} | {x['four_coordinate_boxes']} | {x['point_annotations']} | {x['region_annotations']} | {x['review_required_records']} |" for x in inventory]
