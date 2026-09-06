@@ -1,0 +1,23 @@
+{
+  "per_dataset": {
+    "UAV123": {
+      "input_count": 0,
+      "verified_count": 0,
+      "review_required_count": 0,
+      "rejected_count": 0,
+      "rejection_reasons": {
+        "native_language_expression_absent": "UAV123 audit: boxes only; no expression records emitted"
+      }
+    },
+    "MM-UAVBench": {
+      "input_count": 5702,
+      "verified_count": 0,
+      "review_required_count": 88,
+      "rejected_count": 5672,
+      "rejection_reasons": {
+        "Boxes condition a multiple-choice question; no explicit text-to-target-bbox mapping is supplied.": 2043,
+        "No four-coordinate bbox exists.": 3629
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Unified UAV grounding record",
+  "type": "object",
+  "required": ["image_id", "expression", "bbox", "source_dataset", "source_task", "source_id", "validation_status"],
+  "properties": {
+    "image_id": {"type": "string", "minLength": 1},
+    "expression": {"type": "string", "minLength": 1},
+    "bbox": {"type": "array", "items": {"type": "number"}, "minItems": 4, "maxItems": 4},
+    "source_dataset": {"type": "string"}, "source_task": {"type": "string"}, "source_id": {"type": "string"},
+    "validation_status": {"enum": ["VERIFIED", "REVIEW_REQUIRED"]}
+  }, "additionalProperties": true,
+  "description": "BBox order is [x1,y1,x2,y2]. Point annotations are deliberately excluded. REVIEW_REQUIRED records are candidates, not ground truth."
+}

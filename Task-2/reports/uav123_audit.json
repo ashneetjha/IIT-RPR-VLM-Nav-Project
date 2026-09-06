@@ -1,0 +1,62 @@
+{
+  "dataset": "UAV123 10fps local release",
+  "dataset_path": "/Users/ashneetjha/Desktop/IIT RPR/VLM Navigation/Task 2/UAV123_10fps",
+  "annotation_file_count": 123,
+  "image_file_count": 37885,
+  "physical_image_folder_count": 91,
+  "total_annotation_rows": 37607,
+  "field_count_distribution": {
+    "4": 37607
+  },
+  "invalid_rows": 853,
+  "nan_rows": 853,
+  "annotation_format": "x,y,width,height",
+  "converted_bbox_format": "[x1,y1,x2,y2] where x2=x+w and y2=y+h",
+  "representative_sequence_mappings": [
+    {
+      "sequence": "bike1",
+      "image_folder": "bike1",
+      "start_frame": 1,
+      "end_frame": 1029
+    },
+    {
+      "sequence": "group1_1",
+      "image_folder": "group1",
+      "start_frame": 1,
+      "end_frame": 445
+    },
+    {
+      "sequence": "group1_2",
+      "image_folder": "group1",
+      "start_frame": 445,
+      "end_frame": 839
+    },
+    {
+      "sequence": "person4_1",
+      "image_folder": "person4",
+      "start_frame": 1,
+      "end_frame": 501
+    },
+    {
+      "sequence": "uav1_1",
+      "image_folder": "uav1",
+      "start_frame": 1,
+      "end_frame": 519
+    }
+  ],
+  "group1_2_mapping": {
+    "sequence": "group1_2",
+    "image_folder": "group1",
+    "start_frame": 445,
+    "end_frame": 839,
+    "annotation_rows": 395,
+    "first_image": "000445.jpg",
+    "last_expected_image": "000839.jpg"
+  },
+  "tracking_attributes": "Per-sequence attribute files are under anno/UAV123_10fps/att; they are tracking challenge tags, not language expressions.",
+  "native_language_grounding": {
+    "exists": false,
+    "finding": "Audited native annotation and configuration files contain numeric boxes, sequence metadata, and tracking attributes; no native referring-expression/text-command field was found."
+  },
+  "audit_method": "Read-only scan of native annotation text files and configSeqs.m; raw data was not modified."
+}

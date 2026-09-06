@@ -1,10 +1,10 @@
-# Task 2 — UAV123 and MM-UAVBench Investigation
+# Task 2 — grounding audit and InternVL preparation
 
-Task 2 investigates UAV datasets suitable for multimodal visual grounding and subsequent InternVL training.
+Task 2 investigates UAV datasets for multimodal visual grounding and subsequent InternVL training. Raw data remains outside this repository and is never modified by the included tooling.
 
 ## UAV123
 
-Completed work:
+Completed, reproducible work:
 
 - Obtained the UAV123 10 FPS dataset.
 - Inspected annotation and image organization.
@@ -13,6 +13,7 @@ Completed work:
 - Verified `group1_2` contains 395 annotations corresponding to frames 445–839.
 - Visually validated the bounding box against the corresponding image.
 - Investigated UAV123 tracking attributes and annotation semantics.
+- Generated a read-only audit: 123 annotation files, 37,607 rows, 37,885 images, and 91 physical image folders.
 
 ## Current UAV123 Finding
 
@@ -26,7 +27,7 @@ Current dataset source:
 
 https://huggingface.co/datasets/daisq/MM-UAVBench
 
-The dataset is being investigated for grounding-relevant image, language, and region/bounding-box annotations.
+Official task JSONs have been inspected without downloading media: 19 tasks / 5,702 records. The release is a multiple-choice benchmark; its available boxes do not establish image + referring-expression + target-bbox supervision. VERIFIED records: **0**. Thirty source records (88 entity-level box candidates) are retained only as `REVIEW_REQUIRED`.
 
 ## Validation Evidence
 
@@ -40,7 +41,16 @@ Visual output:
 
 ## Next Stage
 
-- Identify grounding-relevant MM-UAVBench annotations.
-- Normalize valid image + expression/command + bounding-box samples.
-- Prepare the unified representation for InternVL.
-- Validate the InternVL training pipeline before server execution.
+- Review `reports/TASK2_MASTER_REPORT.md` and the task inventory.
+- Obtain team-approved InternVL release/checkpoint, bbox serialization, server paths, launcher, and training parameters.
+- Validate on the GPU server before training. Do not train `REVIEW_REQUIRED` candidates as ground truth.
+
+## Reproduce
+
+```bash
+python3 scripts/audit_uav123.py
+python3 scripts/inspect_mmuavbench.py
+python3 scripts/build_unified_grounding.py
+(cd internvl && python3 validate_internvl_config.py)
+(cd internvl && python3 dry_run_internvl.py)
+```

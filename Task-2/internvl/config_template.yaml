@@ -1,0 +1,14 @@
+# Official implementation examined: OpenGVLab/InternVL main, internvl_chat training dataset.
+# This is deliberately parameterized: team must select the exact release/checkpoint and run parameters.
+internvl_repo: REPLACE_WITH_TEAM_PROVIDED_INTERNVL_REPOSITORY_PATH
+checkpoint: REPLACE_WITH_TEAM_PROVIDED_INTERNVL_CHECKPOINT
+data_root: REPLACE_WITH_SERVER_MEDIA_ROOT
+annotation: outputs/internvl_grounding.jsonl
+output_dir: REPLACE_WITH_SERVER_OUTPUT_DIRECTORY
+bbox_target_template: REPLACE_WITH_TEAM_BBOX_SERIALIZATION
+max_dynamic_patch: REPLACE_WITH_TEAM_TRAINING_PARAMETER
+per_device_train_batch_size: REPLACE_WITH_TEAM_TRAINING_PARAMETER
+gradient_accumulation_steps: REPLACE_WITH_TEAM_TRAINING_PARAMETER
+learning_rate: REPLACE_WITH_TEAM_TRAINING_PARAMETER
+num_train_epochs: REPLACE_WITH_TEAM_TRAINING_PARAMETER
+launcher: REPLACE_WITH_TEAM_LAUNCHER
