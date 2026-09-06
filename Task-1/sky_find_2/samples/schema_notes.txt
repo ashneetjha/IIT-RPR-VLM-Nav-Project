@@ -1,0 +1,23 @@
+Dataset: UAVIT-1M
+
+Rows: ~1.24M
+
+Fields:
+
+id -> string
+
+image -> string
+
+conversations -> list
+
+Conversation Example:
+
+{
+ "from":"human",
+ "value":"..."
+}
+
+{
+ "from":"gpt",
+ "value":"..."
+}

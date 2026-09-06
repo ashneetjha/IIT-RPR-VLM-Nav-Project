@@ -1,0 +1,19 @@
+Dataset: UAVIT-1M
+Total Records:
+1,240,666
+Task Types Found:
+img_cls
+deta_cap
+img_cap
+deta_cls
+count
+Conversation Structure:
+Human -> GPT
+Maximum Conversation Length:
+2
+Output Format:
+Qwen3-VL JSONL
+Conversion Status:
+Success
+Errors:
+0

@@ -1,0 +1,7 @@
+Dataset: UAVIT-1M
+Output Format: Qwen3-VL JSONL
+
+Converted Records: 1240666
+Errors: 0
+Runtime (minutes): 10.13
+Output File: output/uavit_qwen_full.jsonl

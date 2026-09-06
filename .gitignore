@@ -1,0 +1,44 @@
+# Python environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Raw datasets
+UAV123_10fps/
+MM-UAVBench/
+data/
+raw_data/
+datasets/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Large model/checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Logs / caches
+*.log
+.cache/
+cache/
+tmp/
+
+# OS
+.DS_Store
+
+# Secrets
+.env
+
+# Large generated datasets
+**/uavit_qwen_full.jsonl
+**/venv/
+**/.venv/
