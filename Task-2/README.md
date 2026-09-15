@@ -54,3 +54,11 @@ python3 scripts/build_unified_grounding.py
 (cd internvl && python3 validate_internvl_config.py)
 (cd internvl && python3 dry_run_internvl.py)
 ```
+
+## AerialVG Evaluation Status
+
+- AerialVG Test source: 4,723 source records.
+- 90-image evaluation set: 30 long / 30 short / 30 complex-relational.
+- 30 Phase-1 verified images + 60 additionally manually verified images.
+- Evaluation metadata is committed; images are intentionally kept local and excluded from Git.
+- Grounding DINO and GLIP are the next evaluation stage.
