@@ -2,5 +2,5 @@ Source: aerialvg/annotation/vg_test_odvg.jsonl
 Total test records: 4723
 Shortlist size: 30
 Category counts: long=10, short=10, complex=10
-Status: Candidate shortlist created; manual visual verification pending
-Next action: Obtain and inspect selected images manually; do not run Grounding DINO/GLIP yet.
+Status: Phase 1 shortlist + manual verification complete; 30/30 images manually verified; 0 rejected
+Next action: Prepare the larger approximately 90-image evaluation set. Zero-shot model evaluation has not yet started; do not claim Grounding DINO/GLIP results.

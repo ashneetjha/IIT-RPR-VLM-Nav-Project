@@ -9,8 +9,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A black sedan
 - Expected relationship: at the top left; at the bottom left
 - Expected target bbox: [370.9714101644254, 607.4085496435172, 412.7766022136579, 663.4971823095708]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 2. 3841_0000084_01959_d_0000006.jpg
 
@@ -19,8 +19,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: a man in black short-sleeved blue patch
 - Expected relationship: at the top left; at the bottom right
 - Expected target bbox: [367.3192048825167, 177.9068011253052, 391.1501669490654, 245.83538126849777]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 3. 4057_0000087_01140_d_0000004.jpg
 
@@ -29,8 +29,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: a man wearing a white sportswear
 - Expected relationship: below; on the left
 - Expected target bbox: [816.2051717157462, 239.80230006238426, 838.7993139751604, 304.3259563224422]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 4. 4042_9999985_00000_d_0000067.jpg
 
@@ -39,8 +39,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: a pink umbrella
 - Expected relationship: at the bottom left; at the bottom right
 - Expected target bbox: [854.1009694305095, 759.0391142728038, 889.6941897694926, 826.5615469746981]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 5. 4686_9999952_00000_d_0000339.jpg
 
@@ -49,8 +49,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: a silver commercial vehicle
 - Expected relationship: at the bottom left
 - Expected target bbox: [917.1103218609752, 361.83201619357175, 953.9489663645745, 420.61517279704833]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 6. 4028_9999937_00000_d_0000077.jpg
 
@@ -59,8 +59,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: a white electric bicycle
 - Expected relationship: at the top right; at the top left
 - Expected target bbox: [1477.3265293035827, 865.4728503626142, 1508.9018571352751, 906.0152555057448]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 7. 4478_9999982_00000_d_0000170.jpg
 
@@ -69,8 +69,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A red commercial vehicle
 - Expected relationship: at the bottom left; at the top right
 - Expected target bbox: [359.93411318486477, 769.2167283565183, 391.95345122874727, 794.5979109522788]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 8. 2247_9999998_00033_d_0000026.jpg
 
@@ -79,8 +79,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: a man
 - Expected relationship: below; on the right
 - Expected target bbox: [955.9753537920184, 880.0683468248584, 1024.9809300001968, 974.1668598360108]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 9. 1003_9999973_00000_d_0000089.jpg
 
@@ -89,8 +89,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: a black electric bicycle
 - Expected relationship: below
 - Expected target bbox: [930.3502669251684, 693.2668621323656, 978.1331118698608, 722.7448361280963]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 10. 2340_9999940_00000_d_0000022.jpg
 
@@ -99,8 +99,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A truck with a black front and a white body
 - Expected relationship: on the left
 - Expected target bbox: [957.9277729353269, 311.6953064524501, 995.7537602110763, 418.9630315627842]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 11. 4644_9999984_00000_d_0000030.jpg
 
@@ -109,8 +109,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A white truck
 - Expected relationship: No explicit anchor relation
 - Expected target bbox: [530.065849414806, 503.3520055798701, 577.9473574938006, 567.0683431023117]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 12. 3287_0000290_02801_d_0000861.jpg
 
@@ -119,8 +119,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: a white sedan
 - Expected relationship: No explicit anchor relation
 - Expected target bbox: [944.3780055943348, 657.4046801592044, 1059.2862879734344, 718.6386990585929]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 13. 2234_9999951_00000_d_0000021.jpg
 
@@ -129,8 +129,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A red SUV
 - Expected relationship: at the top left
 - Expected target bbox: [80.74564785161667, 277.5359892438399, 117.05649863333335, 306.0966979614748]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 14. 517_0000198_01022_d_0000158.jpg
 
@@ -139,8 +139,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A red truck
 - Expected relationship: below
 - Expected target bbox: [314.1054290748044, 189.011556022581, 406.023637448709, 253.92554498720287]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 15. 4203_0000084_00281_d_0000002.jpg
 
@@ -149,8 +149,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: a man in white shorts
 - Expected relationship: on the left
 - Expected target bbox: [890.541799189206, 146.37518599410032, 922.5951035931668, 203.7946617335664]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 16. 1116_9999998_00415_d_0000367.jpg
 
@@ -159,8 +159,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A white sedan
 - Expected relationship: on the left
 - Expected target bbox: [532.9575321443392, 187.6939319306022, 663.180380870126, 279.87411154002297]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 17. 2363_9999965_00000_d_0000060.jpg
 
@@ -169,8 +169,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: a white SUV
 - Expected relationship: below
 - Expected target bbox: [337.55751273743795, 554.1247522974156, 386.4329347083982, 645.4657048333086]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 18. 514_0000026_03000_d_0000030.jpg
 
@@ -179,8 +179,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A brown SUV
 - Expected relationship: below
 - Expected target bbox: [469.4747103317978, 167.45775368058273, 628.5460321152821, 247.59142706023272]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 19. 4824_0000137_00960_d_0000160.jpg
 
@@ -189,8 +189,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: a gray van
 - Expected relationship: above
 - Expected target bbox: [192.07868445119323, 737.6723036879023, 460.7173399133781, 901.9412112509275]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 20. 2756_0000123_01819_d_0000120.jpg
 
@@ -199,8 +199,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A white SUV
 - Expected relationship: above
 - Expected target bbox: [1199.5007234939571, 732.5952674218828, 1230.8066540263399, 804.6717121359735]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 21. 4562_9999938_00000_d_0000068.jpg
 
@@ -209,8 +209,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: a white-topped red sedan
 - Expected relationship: at the bottom right; at the top left; at the bottom right; at the top left
 - Expected target bbox: [536.4083336098314, 250.99634720301484, 558.0855265509077, 279.76210189099515]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 22. 2636_9999965_00000_d_0000048.jpg
 
@@ -219,8 +219,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A white sedan
 - Expected relationship: at the bottom left; at the bottom right; at the bottom left
 - Expected target bbox: [906.2148730621433, 263.3990845720282, 956.9032202331558, 289.26581843764797]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 23. 4077_0000226_04986_d_0000018.jpg
 
@@ -229,8 +229,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A white SUV
 - Expected relationship: at the top right; at the bottom right; at the bottom right
 - Expected target bbox: [994.8374474976565, 626.5184225874532, 1045.8535960201216, 681.9836538299007]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 24. 2107_9999938_00000_d_0000237.jpg
 
@@ -239,8 +239,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A red sedan
 - Expected relationship: at the top right; at the top right; at the top right
 - Expected target bbox: [1086.8843417722353, 320.1536738516546, 1132.0593119299283, 339.3375652884832]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 25. 4557_9999952_00000_d_0000327.jpg
 
@@ -249,8 +249,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: a silver double-decker bus
 - Expected relationship: above; above; above
 - Expected target bbox: [735.296015885516, 412.68483613396864, 932.6791714227352, 491.0575596560998]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 26. 3552_9999972_00000_d_0000021.jpg
 
@@ -259,8 +259,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A silver van
 - Expected relationship: at the bottom right; at the top left
 - Expected target bbox: [1682.4181715959749, 581.8217673580597, 1741.9410446445045, 662.952258705028]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 27. 3553_9999960_00000_d_0000069.jpg
 
@@ -269,8 +269,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A white SUV
 - Expected relationship: at the bottom right; at the top left
 - Expected target bbox: [938.3584266775956, 502.3490035566879, 1044.3778441533238, 576.1548287994063]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 28. 3571_9999982_00000_d_0000138.jpg
 
@@ -279,8 +279,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: A red sedan
 - Expected relationship: at the bottom right; at the top left
 - Expected target bbox: [341.50155024026526, 861.8243242383752, 376.8703872745144, 893.8341097107124]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 29. 1931_9999938_00000_d_0000056.jpg
 
@@ -289,8 +289,8 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: a white topped yellow bus
 - Expected relationship: at the top left; at the bottom left
 - Expected target bbox: [986.9842306963601, 226.03125989917322, 1160.0609071248246, 295.51459715147644]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
 ## 30. 4948_0000348_06077_d_0000437.jpg
 
@@ -299,6 +299,6 @@ All entries are annotation-based candidates. No image was visually inspected by 
 - Target: rose trousers
 - Expected relationship: at the bottom right; at the bottom left
 - Expected target bbox: [403.49551619360506, 543.8821601863375, 432.00685683890373, 596.8317928133208]
-- Verification status: PENDING
-- Notes: 
+- Verification status: VERIFIED
+- Notes: Manually inspected and confirmed correct: target, caption/relationship, and target bounding box.
 
